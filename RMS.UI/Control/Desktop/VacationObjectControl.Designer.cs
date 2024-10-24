@@ -1,0 +1,121 @@
+﻿
+namespace RMS.UI.Control.Desktop
+{
+    partial class VacationObjectControl
+    {
+        /// <summary> 
+        /// Обязательная переменная конструктора.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Освободить все используемые ресурсы.
+        /// </summary>
+        /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Код, автоматически созданный конструктором компонентов
+
+        /// <summary> 
+        /// Требуемый метод для поддержки конструктора — не изменяйте 
+        /// содержимое этого метода с помощью редактора кода.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.lblCustomer = new DevExpress.XtraEditors.LabelControl();
+            this.lblDescription = new DevExpress.XtraEditors.LabelControl();
+            this.btnApprove = new DevExpress.XtraEditors.SimpleButton();
+            this.btnCongratulate = new DevExpress.XtraEditors.SimpleButton();
+            this.SuspendLayout();
+            // 
+            // lblCustomer
+            // 
+            this.lblCustomer.Appearance.Font = new System.Drawing.Font("Bahnschrift Light", 9.75F);
+            this.lblCustomer.Appearance.Options.UseFont = true;
+            this.lblCustomer.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.lblCustomer.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblCustomer.Location = new System.Drawing.Point(45, 5);
+            this.lblCustomer.Name = "lblCustomer";
+            this.lblCustomer.Padding = new System.Windows.Forms.Padding(10, 3, 3, 3);
+            this.lblCustomer.Size = new System.Drawing.Size(260, 16);
+            this.lblCustomer.TabIndex = 1;
+            this.lblCustomer.Text = "lblCustomer";
+            this.lblCustomer.Click += new System.EventHandler(this.lblCustomer_Click);
+            this.lblCustomer.MouseEnter += new System.EventHandler(this.lblTask_MouseEnter);
+            this.lblCustomer.MouseLeave += new System.EventHandler(this.lblTask_MouseLeave);
+            // 
+            // lblDescription
+            // 
+            this.lblDescription.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.lblDescription.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblDescription.Location = new System.Drawing.Point(45, 21);
+            this.lblDescription.Name = "lblDescription";
+            this.lblDescription.Padding = new System.Windows.Forms.Padding(10, 3, 3, 3);
+            this.lblDescription.Size = new System.Drawing.Size(260, 24);
+            this.lblDescription.TabIndex = 2;
+            this.lblDescription.Text = "lblDescription";
+            this.lblDescription.Click += new System.EventHandler(this.lblCustomer_Click);
+            this.lblDescription.MouseEnter += new System.EventHandler(this.lblTask_MouseEnter);
+            this.lblDescription.MouseLeave += new System.EventHandler(this.lblTask_MouseLeave);
+            // 
+            // btnApprove
+            // 
+            this.btnApprove.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnApprove.ImageOptions.Image = global::RMS.UI.Properties.Resources.apply_32x321;
+            this.btnApprove.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.TopCenter;
+            this.btnApprove.Location = new System.Drawing.Point(5, 5);
+            this.btnApprove.Margin = new System.Windows.Forms.Padding(10);
+            this.btnApprove.MinimumSize = new System.Drawing.Size(40, 40);
+            this.btnApprove.Name = "btnApprove";
+            this.btnApprove.Size = new System.Drawing.Size(40, 40);
+            this.btnApprove.TabIndex = 5;
+            this.btnApprove.ToolTip = "Утвердить";
+            this.btnApprove.Click += new System.EventHandler(this.btnApprove_Click);
+            // 
+            // btnCongratulate
+            // 
+            this.btnCongratulate.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnCongratulate.ImageOptions.Image = global::RMS.UI.Properties.Resources.inserttable_32x32;
+            this.btnCongratulate.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.TopCenter;
+            this.btnCongratulate.Location = new System.Drawing.Point(305, 5);
+            this.btnCongratulate.Margin = new System.Windows.Forms.Padding(10);
+            this.btnCongratulate.Name = "btnCongratulate";
+            this.btnCongratulate.Size = new System.Drawing.Size(40, 40);
+            this.btnCongratulate.TabIndex = 4;
+            this.btnCongratulate.ToolTip = "Просмотр";
+            this.btnCongratulate.Click += new System.EventHandler(this.btnCongratulate_Click);
+            // 
+            // VacationObjectControl
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.Controls.Add(this.lblDescription);
+            this.Controls.Add(this.lblCustomer);
+            this.Controls.Add(this.btnApprove);
+            this.Controls.Add(this.btnCongratulate);
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.MinimumSize = new System.Drawing.Size(350, 50);
+            this.Name = "VacationObjectControl";
+            this.Padding = new System.Windows.Forms.Padding(5);
+            this.Size = new System.Drawing.Size(350, 50);
+            this.Load += new System.EventHandler(this.TaskControl_Load);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+        private DevExpress.XtraEditors.LabelControl lblCustomer;
+        private DevExpress.XtraEditors.LabelControl lblDescription;
+        private DevExpress.XtraEditors.SimpleButton btnCongratulate;
+        private DevExpress.XtraEditors.SimpleButton btnApprove;
+    }
+}

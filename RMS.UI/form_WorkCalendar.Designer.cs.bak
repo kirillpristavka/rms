@@ -1,0 +1,205 @@
+﻿namespace PulsPlusSpace
+{
+    partial class form_WorkCalendar
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form_WorkCalendar));
+            this.splitContainerControl = new DevExpress.XtraEditors.SplitContainerControl();
+            this.dateNavigatorHolidays = new DevExpress.XtraScheduler.DateNavigator();
+            this.gridControlHolidays = new DevExpress.XtraGrid.GridControl();
+            this.gridViewHolidays = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.panelControl = new DevExpress.XtraEditors.PanelControl();
+            this.btnHolidaysDelete = new DevExpress.XtraEditors.SimpleButton();
+            this.btnHolidaysEdit = new DevExpress.XtraEditors.SimpleButton();
+            this.btnHolidaysAdd = new DevExpress.XtraEditors.SimpleButton();
+            this.imageCollection = new DevExpress.Utils.ImageCollection(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl)).BeginInit();
+            this.splitContainerControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dateNavigatorHolidays)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControlHolidays)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridViewHolidays)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl)).BeginInit();
+            this.panelControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imageCollection)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // splitContainerControl
+            // 
+            this.splitContainerControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainerControl.Location = new System.Drawing.Point(0, 0);
+            this.splitContainerControl.Name = "splitContainerControl";
+            this.splitContainerControl.Panel1.Controls.Add(this.dateNavigatorHolidays);
+            this.splitContainerControl.Panel1.Text = "Panel1";
+            this.splitContainerControl.Panel2.Controls.Add(this.gridControlHolidays);
+            this.splitContainerControl.Panel2.Controls.Add(this.panelControl);
+            this.splitContainerControl.Panel2.Text = "Panel2";
+            this.splitContainerControl.Size = new System.Drawing.Size(784, 461);
+            this.splitContainerControl.SplitterPosition = 201;
+            this.splitContainerControl.TabIndex = 1;
+            this.splitContainerControl.Text = "splitContainerControl1";
+            // 
+            // dateNavigatorHolidays
+            // 
+            this.dateNavigatorHolidays.DateTime = new System.DateTime(2019, 8, 16, 0, 0, 0, 0);
+            this.dateNavigatorHolidays.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dateNavigatorHolidays.HotDate = null;
+            this.dateNavigatorHolidays.Location = new System.Drawing.Point(0, 0);
+            this.dateNavigatorHolidays.Name = "dateNavigatorHolidays";
+            this.dateNavigatorHolidays.Size = new System.Drawing.Size(201, 461);
+            this.dateNavigatorHolidays.TabIndex = 0;
+            // 
+            // gridControlHolidays
+            // 
+            this.gridControlHolidays.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControlHolidays.Location = new System.Drawing.Point(0, 24);
+            this.gridControlHolidays.MainView = this.gridViewHolidays;
+            this.gridControlHolidays.Name = "gridControlHolidays";
+            this.gridControlHolidays.Size = new System.Drawing.Size(578, 437);
+            this.gridControlHolidays.TabIndex = 2;
+            this.gridControlHolidays.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridViewHolidays});
+            // 
+            // gridViewHolidays
+            // 
+            this.gridViewHolidays.GridControl = this.gridControlHolidays;
+            this.gridViewHolidays.Name = "gridViewHolidays";
+            this.gridViewHolidays.OptionsBehavior.Editable = false;
+            this.gridViewHolidays.OptionsView.ShowGroupPanel = false;
+            // 
+            // panelControl
+            // 
+            this.panelControl.Controls.Add(this.btnHolidaysDelete);
+            this.panelControl.Controls.Add(this.btnHolidaysEdit);
+            this.panelControl.Controls.Add(this.btnHolidaysAdd);
+            this.panelControl.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelControl.Location = new System.Drawing.Point(0, 0);
+            this.panelControl.Name = "panelControl";
+            this.panelControl.Size = new System.Drawing.Size(578, 24);
+            this.panelControl.TabIndex = 8;
+            // 
+            // btnHolidaysDelete
+            // 
+            this.btnHolidaysDelete.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnHolidaysDelete.ImageIndex = 3;
+            this.btnHolidaysDelete.ImageList = this.imageCollection;
+            this.btnHolidaysDelete.Location = new System.Drawing.Point(50, 2);
+            this.btnHolidaysDelete.Name = "btnHolidaysDelete";
+            this.btnHolidaysDelete.Size = new System.Drawing.Size(24, 20);
+            this.btnHolidaysDelete.TabIndex = 6;
+            this.btnHolidaysDelete.ToolTip = "Удаление Балансодержателя";
+            this.btnHolidaysDelete.Click += new System.EventHandler(this.BtnHolidaysDelete_Click);
+            // 
+            // btnHolidaysEdit
+            // 
+            this.btnHolidaysEdit.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnHolidaysEdit.ImageIndex = 2;
+            this.btnHolidaysEdit.ImageList = this.imageCollection;
+            this.btnHolidaysEdit.Location = new System.Drawing.Point(26, 2);
+            this.btnHolidaysEdit.Name = "btnHolidaysEdit";
+            this.btnHolidaysEdit.Size = new System.Drawing.Size(24, 20);
+            this.btnHolidaysEdit.TabIndex = 5;
+            this.btnHolidaysEdit.ToolTip = "Редактирование Балансодержателя";
+            this.btnHolidaysEdit.Click += new System.EventHandler(this.BtnHolidaysEdit_Click);
+            // 
+            // btnHolidaysAdd
+            // 
+            this.btnHolidaysAdd.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnHolidaysAdd.ImageIndex = 1;
+            this.btnHolidaysAdd.ImageList = this.imageCollection;
+            this.btnHolidaysAdd.Location = new System.Drawing.Point(2, 2);
+            this.btnHolidaysAdd.Name = "btnHolidaysAdd";
+            this.btnHolidaysAdd.Size = new System.Drawing.Size(24, 20);
+            this.btnHolidaysAdd.TabIndex = 4;
+            this.btnHolidaysAdd.ToolTip = "Добавление Балансодержателя";
+            this.btnHolidaysAdd.Click += new System.EventHandler(this.BtnHolidaysAdd_Click);
+            // 
+            // imageCollection
+            // 
+            this.imageCollection.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imageCollection.ImageStream")));
+            this.imageCollection.Images.SetKeyName(0, "funnel.png");
+            this.imageCollection.Images.SetKeyName(1, "clipboard--plus.png");
+            this.imageCollection.Images.SetKeyName(2, "clipboard--pencil.png");
+            this.imageCollection.Images.SetKeyName(3, "clipboard--minus.png");
+            this.imageCollection.Images.SetKeyName(4, "Ribbon_Save_16x16.png");
+            this.imageCollection.Images.SetKeyName(5, "cross-script.png");
+            this.imageCollection.Images.SetKeyName(6, "magnifier-left.png");
+            this.imageCollection.Images.SetKeyName(7, "arrow-curve-180-left.png");
+            this.imageCollection.Images.SetKeyName(8, "printer.png");
+            this.imageCollection.Images.SetKeyName(9, "book.png");
+            this.imageCollection.Images.SetKeyName(10, "bookpencil.png");
+            this.imageCollection.Images.SetKeyName(11, "bookopentext.png");
+            this.imageCollection.Images.SetKeyName(12, "report.png");
+            this.imageCollection.Images.SetKeyName(13, "report--pencil.png");
+            this.imageCollection.Images.SetKeyName(14, "notebook--plus.png");
+            this.imageCollection.Images.SetKeyName(15, "notebook--pencil.png");
+            this.imageCollection.Images.SetKeyName(16, "notebook--minus.png");
+            this.imageCollection.Images.SetKeyName(17, "notebooks.png");
+            this.imageCollection.Images.SetKeyName(18, "arrow-180-medium.png");
+            this.imageCollection.Images.SetKeyName(19, "arrow-000-medium.png");
+            this.imageCollection.Images.SetKeyName(20, "status.png");
+            this.imageCollection.Images.SetKeyName(21, "status-away.png");
+            this.imageCollection.Images.SetKeyName(22, "status-busy.png");
+            this.imageCollection.Images.SetKeyName(23, "status-offline.png");
+            this.imageCollection.Images.SetKeyName(24, "user-red-female.png");
+            // 
+            // form_WorkCalendar
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(784, 461);
+            this.Controls.Add(this.splitContainerControl);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "form_WorkCalendar";
+            this.Text = "Рабочий календарь";
+            this.Load += new System.EventHandler(this.Form_WorkCalendar_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl)).EndInit();
+            this.splitContainerControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dateNavigatorHolidays)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControlHolidays)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridViewHolidays)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl)).EndInit();
+            this.panelControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.imageCollection)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private DevExpress.XtraEditors.SplitContainerControl splitContainerControl;
+        private DevExpress.XtraScheduler.DateNavigator dateNavigatorHolidays;
+        private DevExpress.XtraGrid.GridControl gridControlHolidays;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridViewHolidays;
+        private DevExpress.XtraEditors.PanelControl panelControl;
+        private DevExpress.XtraEditors.SimpleButton btnHolidaysDelete;
+        private DevExpress.XtraEditors.SimpleButton btnHolidaysEdit;
+        private DevExpress.XtraEditors.SimpleButton btnHolidaysAdd;
+        private DevExpress.Utils.ImageCollection imageCollection;
+    }
+}

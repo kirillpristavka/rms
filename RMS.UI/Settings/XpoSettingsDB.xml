@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <DataBases>
+    <DataBase name="SQLServer" default="false">
+	  <ServerMapPath></ServerMapPath>
+      <DataSource>(localhost)</DataSource>
+	  <Port></Port>
+      <DBName>RMS</DBName>
+      <ConnectionString></ConnectionString>
+      <User></User>
+      <Password></Password>
+    </DataBase>
+	<DataBase name="MySQL" default="true">
+	  <ServerMapPath></ServerMapPath>
+      <DataSource>192.168.0.213</DataSource>
+	    <Port>3306</Port>
+      <DBName>RMS</DBName>
+      <ConnectionString></ConnectionString>
+      <User>root</User>
+      <Password>xsenus1992</Password>
+    </DataBase>
+    <DataBase name="SQLite" default="true">
+      <ServerMapPath>true</ServerMapPath>
+      <DataSource>C:\RMS.s3db</DataSource>
+      <DBName></DBName>
+      <ConnectionString></ConnectionString>
+      <User></User>
+      <Password></Password>
+    </DataBase>
+    <DataBase name="Access" default="false">
+      <ServerMapPath>true</ServerMapPath>
+      <DataSource>RMS.mdb</DataSource>
+      <DBName></DBName>
+      <ConnectionString></ConnectionString>
+      <User></User>
+      <Password></Password>
+    </DataBase>
+  </DataBases>
+</Settings>
